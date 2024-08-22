@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "サウンドガーディアン（ウェブ通知を見逃さない）"
+  },
+  "appDescription": {
+    "message": "Chrome拡張機能でウェブの音声通知を強化します。自動再生ポリシーを完全に遵守し、重要なアラートを見逃しません。"
+  },
+  "clickSoundLabel": {
+    "message": "アクティベーションサウンド:"
+  },
+  "previewClickButton": {
+    "message": "プレビュー"
+  },
+  "allowedDomains": {
+    "message": "監視対象のウェブサイト"
+  },
+  "saveButton": {
+    "message": "保存"
+  },
+  "settingsSaved": {
+    "message": "設定が保存されました"
+  },
+  "interactionReminder": {
+    "message": "サウンドを有効にするにはページをクリックしてください"
+  },
+  "activationMessageActive": {
+    "message": "サウンドが有効になりました"
+  },
+  "activationMessageInactive": {
+    "message": "サウンドが有効になっていません"
+  },
+  "initializationFailed": {
+    "message": "初期化に失敗しました"
+  },
+  "playSoundError": {
+    "message": "サウンドの再生に失敗しました"
+  },
+  "fetchSettingsError": {
+    "message": "設定の取得に失敗しました"
+  },
+  "editLinkText": {
+    "message": "編集"
+  },
+  "editDomainPrompt": {
+    "message": "通知があるウェブサイトのURLを入力してください："
+  },
+  "deleteLinkText": {
+    "message": "削除"
+  },
+  "deleteDomainConfirm": {
+    "message": "URL: $1 を削除してもよろしいですか？"
+  },
+  "addDomainButton": {
+    "message": "ウェブサイトを追加"
+  },
+  "addDomainLabel": {
+    "message": "URLを入力してください："
+  },
+  "addDomainPrompt": {
+    "message": "通知があるウェブサイトのURLを入力してください："
+  },
+  "noDomainsMessage": {
+    "message": "リストにウェブサイトがありません"
+  },
+  "cancelButton": {
+    "message": "キャンセル"
+  },
+  "confirmButton": {
+    "message": "確認"
+  },
+  "emptyDomainError": {
+    "message": "ドメインURLは空にできません。有効なURLを入力してください。"
+  },
+  "invalidURLError": {
+    "message": "http:// または https:// で始まる有効なURLを入力してください。"
+  }
+}

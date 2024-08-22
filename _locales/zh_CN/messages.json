@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "音控守护者 (不再错过网页通知)"
+  },
+  "appDescription": {
+    "message": "通过我们的Chrome扩展增强您的网页音频通知。完全符合自动播放策略，确保您不会错过任何重要提醒。"
+  },
+  "clickSoundLabel": {
+    "message": "激活声音:"
+  },
+  "previewClickButton": {
+    "message": "试听"
+  },
+  "allowedDomains": {
+    "message": "监控的网址"
+  },
+  "saveButton": {
+    "message": "保存"
+  },
+  "settingsSaved": {
+    "message": "设置已保存"
+  },
+  "interactionReminder": {
+    "message": "请点击页面以激活声音"
+  },
+  "activationMessageActive": {
+    "message": "声音已激活"
+  },
+  "activationMessageInactive": {
+    "message": "声音未激活"
+  },
+  "initializationFailed": {
+    "message": "初始化失败"
+  },
+  "playSoundError": {
+    "message": "播放声音失败"
+  },
+  "fetchSettingsError": {
+    "message": "获取设置失败"
+  },
+  "editLinkText": {
+    "message": "修改"
+  },
+  "editDomainPrompt": {
+    "message": "请输入含有通知的网页地址："
+  },
+  "deleteLinkText": {
+    "message": "删除"
+  },
+  "deleteDomainConfirm": {
+    "message": "确定要删除网址：$1 吗？"
+  },
+  "addDomainButton": {
+    "message": "添加网址"
+  },
+  "addDomainLabel": {
+    "message": "请输入网址："
+  },
+  "addDomainPrompt": {
+    "message": "请输入含有通知的网页地址："
+  },
+  "noDomainsMessage": {
+    "message": "当前网址列表为空"
+  },
+  "cancelButton": {
+    "message": "取消"
+  },
+  "confirmButton": {
+    "message": "确定"
+  },
+  "emptyDomainError": {
+    "message": "网址不能为空。请输入有效的网址。"
+  },
+  "invalidURLError": {
+    "message": "请输入以 http:// 或 https:// 开头的有效网址。"
+  }
+}

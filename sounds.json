@@ -1,0 +1,21 @@
+{
+  "defaultClickSound": "sounds/defaultClickSound.wav",
+  "sounds": [
+    {
+      "name": "defaultClickSound",
+      "file": "sounds/defaultClickSound.wav"
+    },
+    {
+      "name": "01",
+      "file": "sounds/01.wav"
+    },
+    {
+      "name": "02",
+      "file": "sounds/02.wav"
+    },
+    {
+      "name": "03",
+      "file": "sounds/03.wav"
+    }
+  ]
+}

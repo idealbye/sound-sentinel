@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="appName"></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 320px;
+      padding: 20px;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .section label {
+      font-weight: bold;
+    }
+    .section select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    .section button {
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .section button:hover {
+      background-color: #0056b3;
+    }
+    .description {
+      font-size: 12px;
+      color: #666;
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+    #sound-guardian-domainList {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    #sound-guardian-domainList li {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+    #sound-guardian-domainList input[type="checkbox"] {
+      margin-right: 10px;
+      width: auto;
+    }
+    #sound-guardian-domainList label {
+      flex-grow: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #sound-guardian-domainList a {
+      margin-left: 10px;
+      text-decoration: none;
+      color: #007bff;
+      white-space: nowrap;
+    }
+
+    #sound-guardian-alert-overlay,
+    #sound-guardian-prompt-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      z-index: 9999;
+      display: none;
+      text-align: center;
+      padding: 0;
+      overflow: auto;
+    }
+
+    #sound-guardian-alert-box,
+    #sound-guardian-prompt-box {
+      background-color: #fff;
+      color: #333;
+      border-radius: 8px;
+      padding: 20px;
+      display: inline-block;
+      max-width: 80%;
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    #sound-guardian-alert-box button,
+    #sound-guardian-prompt-box button {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+    }
+
+    #sound-guardian-prompt-box input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    #sound-guardian-alert-cancel {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #f44336;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      margin-left: 10px;
+    }
+
+    #sound-guardian-alert-box span {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h2 data-i18n="appName"></h2>
+  <p class="description" data-i18n="appDescription"></p>
+  <div class="container">
+    <div class="section">
+      <label for="sound-guardian-allowedDomains" data-i18n="allowedDomains"></label>
+      <button id="sound-guardian-addDomainButton" data-i18n="addDomainButton"></button>
+      <ul id="sound-guardian-domainList"></ul>
+    </div>
+    <div class="section">
+      <label for="sound-guardian-clickSoundSelect" data-i18n="clickSoundLabel"></label>
+      <select id="sound-guardian-clickSoundSelect"></select>
+      <button id="sound-guardian-previewClickButton" data-i18n="previewClickButton"></button>
+    </div>
+    <div class="section">
+      <button id="sound-guardian-saveButton" data-i18n="saveButton"></button>
+    </div>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

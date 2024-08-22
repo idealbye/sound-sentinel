@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Sound Sentinel (Never Miss Web Notifications)"
+  },
+  "appDescription": {
+    "message": "Enhance web audio alerts with our extension. Compliant with autoplay policies, ensuring you never miss important notifications."
+  },
+  "clickSoundLabel": {
+    "message": "Activation Sound:"
+  },
+  "previewClickButton": {
+    "message": "Preview"
+  },
+  "allowedDomains": {
+    "message": "Monitored Websites"
+  },
+  "saveButton": {
+    "message": "Save"
+  },
+  "settingsSaved": {
+    "message": "Settings saved"
+  },
+  "interactionReminder": {
+    "message": "Please click the page to activate sound"
+  },
+  "activationMessageActive": {
+    "message": "Sound activated"
+  },
+  "activationMessageInactive": {
+    "message": "Sound not activated"
+  },
+  "initializationFailed": {
+    "message": "Initialization failed"
+  },
+  "playSoundError": {
+    "message": "Failed to play sound"
+  },
+  "fetchSettingsError": {
+    "message": "Failed to fetch settings"
+  },
+  "editLinkText": {
+    "message": "Edit"
+  },
+  "editDomainPrompt": {
+    "message": "Enter the website URL with notifications:"
+  },
+  "deleteLinkText": {
+    "message": "Delete"
+  },
+  "deleteDomainConfirm": {
+    "message": "Are you sure you want to delete the URL: $1?"
+  },
+  "addDomainButton": {
+    "message": "Add Website"
+  },
+  "addDomainLabel": {
+    "message": "Enter the URL:"
+  },
+  "addDomainPrompt": {
+    "message": "Enter the website URL with notifications:"
+  },
+  "noDomainsMessage": {
+    "message": "No websites in the list"
+  },
+  "cancelButton": {
+    "message": "Cancel"
+  },
+  "confirmButton": {
+    "message": "OK"
+  },
+  "emptyDomainError": {
+    "message": "The domain URL cannot be empty. Please enter a valid URL."
+  },
+  "invalidURLError": {
+    "message": "Please enter a valid URL starting with http:// or https://."
+  }
+}
